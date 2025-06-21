@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./imagenes/lago.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Form{
+    width: 520px;
+    height: auto;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color:white;
+    padding: 30px 40px;
+}
+
+.Form h1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.email{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input{
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color:white;
+    font-size: 33px;
+    display: flex;
+    text-align: start;
+    padding: 5px 10px;
+}
+
+.password{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password input{
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color:white;
+    font-size: 33px;
+    padding: 5px 10px;
+}
+
+.login{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login input{
+    background-color: white;
+    border-color: transparent;
+    color: black;
+    font-size: 26px;
+    padding: 7px 70px;
+    border-radius: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+}
+
+i{
+    font-size: 30px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #551a8b;
+}
+
+#button:hover{
+    background-color: lightgray;
+}
+
+#remember:hover{
+    color: gray;
+}
